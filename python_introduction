@@ -1,14 +1,12 @@
-basic_operat# Assign values to number1 and number2
-number1 = 10
-number2 = 5
+# File: simple_interest.py
 
-# Perform arithmetic operations
-addition = number1 + number2
-subtraction = number1 - number2
-multiplication = number1 * number2
+# Define the principal, rate, and time variables
+principal = 1000  # $1000
+rate = 0.05      # 5% annual interest rate
+time = 3         # 3 years
 
-# Print the results in a readable format
-print(f"Addition of {number1} and {number2} is {addition}")
-print(f"Subtraction of {number1} and {number2} is {subtraction}")
-print(f"Multiplication of {number1} and {number2} is {multiplication}")
-ions.py
+# Calculate the simple interest
+interest = principal * rate * time
+
+# Print the calculated interest
+print(f"The simple interest is: {interest}")
